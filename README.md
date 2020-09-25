@@ -10,3 +10,4 @@
 TO USE WITHOUT EUREKA,
 comment out netflix-eureka-server  dependency on pom.xml
 comment eureka server settings on application.properties.
+comment out @EnableDiscoveryClient on main class

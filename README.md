@@ -5,3 +5,8 @@
 4. run /users/signin?username=admin&password=admin
 5. copy the generated token
 6. try running /customer/transation/12345
+
+
+TO USE WITHOUT EUREKA,
+comment out netflix-eureka-server  dependency on pom.xml
+comment eureka server settings on application.properties.
